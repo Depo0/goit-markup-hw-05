@@ -544,5 +544,71 @@
         </div>
       </div>
     </footer>
+    <div class="backdrop">
+      <div class="modal">
+        <div class="button-close-div">
+          <button type="button" class="modal-close">
+          <svg class="close-svg" height="8" width="8px">
+          <use href="/images/icons.svg#icon-close"></use>
+        </svg>
+      </div>
+      </button>
+      <p class="modal-title">Leave your contacts and we will call you back</p>
+      <form>
+        <div>
+          <label for="user-name" class="modal-label">Name</label>
+         <div class="modal-div">
+          <input type="text"
+          name="user-name"
+          class="modal-input"
+          id="user-name">
+          <svg class="modal-icon">
+            <use href="/images/icons.svg#icon-name"></use>
+          </svg>
+        </div>
+          </div>
+         <div>
+          <label for="user-tel" class="modal-label">Phone</label>
+          <div class="modal-div">
+            <input type="tel" 
+            name="user-tel" 
+            class="modal-input"
+            id="user-tel">
+            <svg class="modal-icon">
+              <use href="./images/icons.svg#icon-tel"></use>
+            </svg>
+          </div>
+        </div>
+        <div>
+          <label for="user-email" class="modal-label">Email</label>
+          <div class="modal-div">
+            <input type="email" 
+            name="user-email" 
+            class="modal-input">
+            <svg class="modal-icon">
+              <use href="/images/icons.svg#icon-email"></use>
+            </svg>
+          </div>
+        </div>
+        <label for="comment" class="modal-label">Comment</label>
+        <textarea 
+        name="comment" 
+        id="comment" 
+        placeholder="Text input"
+        class="comment-input"></textarea>
+       <div class="checkbox-div">
+        <input type="checkbox"
+        name="checkbox"
+        id="privacy"
+        class="checkbox-input">
+        <label for="privacy" class="check-text">  
+          <span></span> I accept the terms and conditions of the
+          <a class="check-link">Privacy Policy</a>
+        </label>
+        </div>
+        <button type="submit" class="submit-button">Send</button>
+      </form>
+      </div>
+    </div>
   </body>
 </html>
